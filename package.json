@@ -1,0 +1,24 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Simple bookstore app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobisham/bookStore.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "author": "Kobi Shamir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kobisham/bookStore/issues"
+  },
+  "homepage": "https://github.com/kobisham/bookStore#readme"
+}
