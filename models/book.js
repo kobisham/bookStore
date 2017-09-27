@@ -10,7 +10,7 @@ var bookSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    desciption: {
+    description: {
         type: String
     },
     author: {
@@ -45,4 +45,9 @@ module.exports.getBooks = function (callback,limit) {
 // Get Book by id
 module.exports.getBookById = function (id, callback) {
     Book.findById(id,callback);  
+  };
+
+  // Add Book 
+module.exports.addBook = function (book,callback) {
+    Book.create(book,callback);  
   };
